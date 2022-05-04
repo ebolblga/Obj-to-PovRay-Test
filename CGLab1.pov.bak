@@ -1,0 +1,30 @@
+#include "colors.inc"
+#declare HOUSE = union { #include "C:\Users\kirill\Desktop\CG\Koch Lab 1\home_1.pov" }  
+#declare ROOF = union { #include "C:\Users\kirill\Desktop\CG\Koch Lab 1\home_2.pov" }
+#declare MyColor = rgb <123/255,60/255,48/255>;
+
+// Scene Setup
+camera { 
+    location <-5,2,-5> 
+    look_at <0,0,0>
+    angle 60
+}
+
+light_source {
+   <-7, 11, -12> color <252/255,255/255,194/255>
+}  
+
+plane {
+    y, 0
+    pigment { checker Gray, White }
+}
+
+union {
+	HOUSE
+	pigment { MyColor }
+}    
+   
+union {
+	ROOF
+	pigment { MyColor }
+}
