@@ -24,3 +24,9 @@ Now you need to save the model in .obj file format. In Blender *File > Export > 
 
 ### Step 4 Run the converter.
 Model preparations  are now complete, it's time to launch cmd and follow [JossWhittle](https://github.com/JossWhittle/Obj2Pov#readme)'s documentation.
+
+Summary:<br >
+- [x] Download and install [Java Development Kit](https://www.oracle.com/java/technologies/downloads/)
+- [x] Open Command Prompt and go to obj2pov.jar file location using **cd [folder path]** command
+- [x] Run jar file **java -jar obj2pov.jar < [input obj name].obj > [output pov name].pov**
+- [x] Import in the POV-Ray scene using **#declare [Name] = union { #include "[file path].pov" }**
