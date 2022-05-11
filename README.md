@@ -19,6 +19,8 @@ A way to remesh model in Blender is to add **Triangulate modifier**
 ![image](https://user-images.githubusercontent.com/82185066/166807236-b7bd65f5-79ad-4ed5-b3f1-81b007635fb3.png)
 ![image](https://user-images.githubusercontent.com/82185066/166807148-3b851254-dc1e-4a5f-837a-4c1a53eec354.png)
 
+Don't forget to apply it by right clicking that downwards arrow!
+
 ### Step 3 Export the model.
 Now you need to save the model in .obj file format. In Blender *File > Export > Wavefront (.obj)* and don't forget to checkmark *Selected only*
 
